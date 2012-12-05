@@ -1,0 +1,6 @@
+com/jwastle/mongo/MongoBasicController.class
+com/jwastle/mongo/HomeController.class
+com/jwastle/mongo/persistence/PersonRepository.class
+com/jwastle/mongo/persistence/MongoPersonRepository.class
+com/jwastle/mongo/MongoSpringDataController.class
+com/jwastle/mongo/domain/Person.class

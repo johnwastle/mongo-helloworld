@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mongo-helloworld.iml" filepath="$PROJECT_DIR$/mongo-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../strataCopy20111202/strata/strata.iml" filepath="$PROJECT_DIR$/../../strataCopy20111202/strata/strata.iml" />
+    </modules>
+  </component>
+</project>
+
