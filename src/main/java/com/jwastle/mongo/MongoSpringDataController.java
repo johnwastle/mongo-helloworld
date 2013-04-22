@@ -28,9 +28,10 @@ public class MongoSpringDataController {
 
         Person personToInsert =  new Person(NAME, AGE);
         personRepository.insertPerson(personToInsert);
+        logger.info(personToInsert.toString());
 
         model.addAttribute("person", personToInsert );
-        return "mongoDone";
+        return "home";
     }
 
 }

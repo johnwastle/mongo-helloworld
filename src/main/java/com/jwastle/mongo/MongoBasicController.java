@@ -24,12 +24,12 @@ public class MongoBasicController {
 
     @RequestMapping(value = "/mongo", method = RequestMethod.GET)
     public String home(Locale locale, Model model) {
-        String NAME = "Joe3";
+        String NAME = "Joe";
         int AGE = 36;
         Person personToInsert =  new Person(NAME, AGE);
 
         try {
-            MongoOperations mongoOps = new MongoTemplate(new Mongo(), "mydb");
+            MongoOperations mongoOps = new MongoTemplate(new Mongo(), "mongotest");
             mongoOps.insert(personToInsert);
             logger.info("" + mongoOps.findOne(new Query(Criteria.where("name").is(NAME)), Person.class));
             //mongoOps.dropCollection("person");
@@ -38,7 +38,7 @@ public class MongoBasicController {
         }
 
         model.addAttribute("person", personToInsert );
-        return "mongoDone";
+        return "home";
     }
 
 }

@@ -2,13 +2,28 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title></title>
 </head>
 <body>
 <h1>
-	Hello world!  
+	Mongo 'hello world'
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<p>
+    Insert into mongotest collection on local mongo node.
+</p>
+<p>
+    <a href="/mongo">Using standard mongo library</a>
+</p>
+<p>
+    <a href="/mongoSpring">Using Spring Data mongo abstraction</a>
+</p>
+
+<c:if test="${not empty person}">
+    <p>Operation complete</p>
+    <p>${person} inserted in mongo!</p>
+</c:if>
+
+</p>
 </body>
 </html>

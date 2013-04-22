@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mongo-helloworld.iml" filepath="$PROJECT_DIR$/mongo-helloworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../strataCopy20111202/strata/strata.iml" filepath="$PROJECT_DIR$/../../strataCopy20111202/strata/strata.iml" />
     </modules>
   </component>
 </project>
